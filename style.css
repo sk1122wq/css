@@ -1,0 +1,25 @@
+h2{
+    color:red
+}
+h2{
+    text-align: centre;
+    text-decoration: underline;
+    background-color: yellow;
+}
+i{
+    color:green;
+}
+#h1{
+font-weight: normal;
+}
+#h3{
+font-weight: bold;
+}
+#h4{
+font-weight: lighter;
+}
+#one{
+    font-family: arial;
+    text-transform: uppercase;
+  line-height: 2px;
+}

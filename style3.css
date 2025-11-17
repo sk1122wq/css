@@ -1,0 +1,15 @@
+div {
+    height: 200px; 
+ width: 200px;
+ /*border-width: 2px;
+ border-style: solid;
+ border-color: brown;
+ */
+ border: 2px solid brown;
+ /*border-radius: 50px;
+ text-align: center;*/
+ padding-left: 25px;
+ margin-top: 50px;
+}
+
+

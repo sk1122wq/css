@@ -1,0 +1,92 @@
+* {
+    padding:0;
+    margin:0;
+}
+.header1{
+    background-color:#9acd32;
+    height:200px;
+    width:1300px;
+   
+ 
+  
+   
+}
+.HMid{
+     padding-top: 2%;
+ display:flex; /* the box take a width according to its content otherwise by default the box take a whole width*/
+ flex-direction: column;  /* flex on colum wise bydefault its row*/
+
+align-items: center; /* set the whole box center */
+
+}
+.Header2{
+    background-color:yellow;
+    color:green;
+    width:400px;
+    text-align: center; /* center the text withib box*/
+ 
+}
+.parahgrap{
+    color:white;
+    font-size:20px;
+    background-color: blue;
+   width:300px ;
+   text-align: center;  /* center the text withib box*/
+}
+.link{
+    padding-top: 30px;
+    width: 100%;
+  
+    justify-content: space-evenly;  /* give space between content */
+    padding-bottom: 40px;
+    list-style: none;
+    display: flex;
+ } 
+.main{
+    height:400px;
+    width:100%;
+
+    display:flex;
+   
+   
+}
+.mainleft{
+    height: 100%;
+    width:15%;
+    background-color: peachpuff;
+    border: none;
+    border-right: 2px solid black;
+  text-align: center;
+    
+
+}
+.mainright{
+   width:85%;
+ height: 100%;
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainUL{
+    
+    list-style: none;
+    padding-top:50px;
+    padding-left: 10px;
+}
+.mainright p{
+    margin-top: 20px;
+}
+.mainright h3{
+color:red;
+margin-top: 20px;
+padding-bottom: 20px;
+}
+.last{
+  
+    background-color: aquamarine;
+     width: 100%;
+     height:10%;
+  text-align: center;
+}

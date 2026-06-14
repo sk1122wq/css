@@ -1,0 +1,187 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golachi</title>
+    <link rel="stylesheet" href="Aisar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <input type="checkbox" id="theme-toggle" class="theme-toggle">
+    
+    <!-- Header + Sticky Nav -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Brew<span>Haven</span></a>
+            
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+            
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#story">Our Story</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#visit">Visit Us</a></li>
+                    <li>
+                        <label for="theme-toggle" class="theme-label">
+                            <i class="fas fa-sun"></i>
+                            <i class="fas fa-moon"></i>
+                        </label>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="hero-content fade-in">
+                    <h1>Crafted Coffee, Cozy Moments</h1>
+                    <p>Single-origin beans roasted in-house. Fresh pastries baked daily. Your neighborhood escape in Mirpur.</p>
+                    <a href="#menu" class="btn btn-primary">View Menu</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Story/About Section -->
+        <section id="story" class="about section-padding">
+            <div class="container">
+                <div class="grid-2">
+                    <div class="about-text fade-in">
+                        <h2 class="section-title">Our Story</h2>
+                        <p class="subtitle">Since 2021</p>
+                        <p>BrewHaven started with one dream: bring specialty coffee culture to Azad Kashmir. We source directly from farmers in Ethiopia and Colombia, roast in small batches, and serve with care.</p>
+                        <p>Every cup supports sustainable farming and local baristas trained through our academy.</p>
+                        <a href="#visit" class="btn btn-secondary">Find Us</a>
+                    </div>
+                    <div class="about-img fade-in">
+                        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=600" alt="Coffee beans">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu/Services Section -->
+        <section id="menu" class="services section-padding">
+            <div class="container">
+                <h2 class="section-title text-center fade-in">Customer Favorites</h2>
+                <div class="services-grid">
+                    <div class="service-card fade-in">
+                        <img src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=400" alt="Latte">
+                        <h3>Hazelnut Latte</h3>
+                        <p>Espresso, steamed milk, house-made hazelnut syrup.</p>
+                        <span class="price">Rs. 450</span>
+                    </div>
+                    <div class="service-card fade-in">
+                        <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400" alt="Cold Brew">
+                        <h3>Cold Brew Tonic</h3>
+                        <p>18-hour steeped cold brew with citrus tonic & rosemary.</p>
+                        <span class="price">Rs. 500</span>
+                    </div>
+                    <div class="service-card fade-in">
+                        <img src="https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=400" alt="Croissant">
+                        <h3>Almond Croissant</h3>
+                        <p>Buttery, flaky, filled with almond cream. Baked fresh at 7 AM.</p>
+                        <span class="price">Rs. 350</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery section-padding">
+            <div class="container">
+                <h2 class="section-title text-center fade-in">The BrewHaven Vibe</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item fade-in">
+                        <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=400" alt="Cafe interior">
+                        <div class="overlay">Cozy Corner</div>
+                    </div>
+                    <div class="gallery-item fade-in">
+                        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400" alt="Latte art">
+                        <div class="overlay">Latte Art</div>
+                    </div>
+                    <div class="gallery-item fade-in">
+                        <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=400" alt="Coffee beans">
+                        <div class="overlay">Fresh Roast</div>
+                    </div>
+                    <div class="gallery-item fade-in">
+                        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=400" alt="People">
+                        <div class="overlay">Community</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact/Visit Section -->
+        <section id="visit" class="contact section-padding">
+            <div class="container">
+                <h2 class="section-title text-center fade-in">Visit Us</h2>
+                <div class="grid-2">
+                    <div class="contact-info fade-in">
+                        <h3>Hours & Location</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Sector F-2, Mirpur, AJK</p>
+                        <p><i class="fas fa-clock"></i> Mon-Sun: 8:00 AM - 10:00 PM</p>
+                        <p><i class="fas fa-phone"></i> 05827-123456</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form fade-in">
+                        <h3>Book a Table</h3>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="tel" placeholder="Phone Number">
+                        <textarea placeholder="Special Request" rows="3"></textarea>
+                        <button type="submit" class="btn btn-primary">Reserve Now</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Brew<span>Haven</span></h3>
+                    <p>Life’s too short for bad coffee.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Explore</h4>
+                    <a href="#home">Home</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#gallery">Gallery</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <a href="#">Careers</a>
+                    <a href="#">Franchise</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 BrewHaven. Brewed with love in Mirpur, AJK.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
